@@ -1,4 +1,4 @@
-### Hi there 👋 Eu me chamo Yago Melo da Costa.
+### Hi there 👋 Eu me chamo Yago Melo.
 
 - 🔭 Sou um explorador das inovações tecnológicas e sempre busco me aprofundar mais nas áreas de programação.
 - 🌱 Desenvolvedor/Programador em formação na Universidade Estadual do Ceará.
