@@ -3,7 +3,7 @@
 - 🔭 Sou um explorador das inovações tecnológicas e sempre busco me aprofundar mais nas áreas de programação.
 - 🌱 Desenvolvedor/Programador em formação na Universidade Estadual do Ceará.
 - 👯 Experiência inicial com a linguagem Phyton.
-- ⚡ Estudando a linguagem C e C++.
+- ⚡ Estudando a linguagem C, C++ e Java.
 
 <div align="center">
   <a href="https://github.com/Melinh0">
