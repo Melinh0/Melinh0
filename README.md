@@ -1,9 +1,12 @@
-### Hi there 👋 Eu me chamo Yago Melo.
+<h1 align = "center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=75&duration=1500&pause=600&color=4169E1&background=000000EE&center=true&vCenter=true&multiline=true&width=1920&height=384&lines=Hello+there!;My+name+is+Yago+Melo%2C+Student.;Welcome+to+my+README." alt="Typing SVG" /></a>
+</h1>
+<br>
 
 - 🔭 Sou um explorador das inovações tecnológicas e sempre busco me aprofundar mais nas áreas de programação.
 - 🌱 Desenvolvedor/Programador em formação na Universidade Estadual do Ceará.
 - 👯 Experiência inicial com a linguagem Phyton.
-- ⚡ Estudando a linguagem C, C++ e Java.
+- ⚡ Estudando a linguagem C, C++ e Java. 
 
 <div align="center">
   <a href="https://github.com/Melinh0">
