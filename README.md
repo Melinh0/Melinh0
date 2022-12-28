@@ -5,7 +5,7 @@
 
 - 🔭 Sou um explorador das inovações tecnológicas e sempre busco me aprofundar mais nas áreas de programação.
 - 🌱 Desenvolvedor/Programador em formação na Universidade Estadual do Ceará.
-- 👯 Experiência inicial com a linguagem Phyton.
+- 👯 Experiência inicial com a linguagem Python.
 - ⚡ Estudando a linguagem C, C++ e Java. 
 
 <div align="center">
