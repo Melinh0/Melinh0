@@ -3,10 +3,11 @@
 </h1>
 <br>
 
-- 🔭 Sou um explorador das inovações tecnológicas e sempre busco me aprofundar mais nas áreas de programação.
-- 🌱 Desenvolvedor/Programador em formação na Universidade Estadual do Ceará.
-- 👯 Experiência inicial com a linguagem Python.
-- ⚡ Estudando a linguagem C, C++ e Java. 
+- 🔭 I am an explorer of technological innovations and I always seek to delve deeper into programming areas.
+- 🌱 Programmer in training at the State University of Ceará (UECE).
+- 👯 Experience with the Python applied to data science.
+- ⚡ Studying information security and machine learning.
+- ✍ Academic learning in C, C++ and Java.
 
 <div align="center">
   <a href="https://github.com/Melinh0">
