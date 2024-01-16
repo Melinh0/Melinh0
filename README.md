@@ -12,6 +12,8 @@
 <div align="center">
   <a href="https://github.com/Melinh0">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Melinh0&layout=compact&langs_count=7&theme=tokyonight"/>
+  <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Melinh0&show_icons=true&locale=en" alt="Melinh0" /></p>
+  <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Melinh0&" alt="Melinh0" /></p>
 </div>
 <div style="display: inline_block"><br>
   <img align="center" alt="Yago-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
