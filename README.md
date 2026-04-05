@@ -62,13 +62,24 @@ I build **end‑to‑end intelligent systems** that combine **Artificial Intelli
 ### 📈 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/Melinh0">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Melinh0&layout=compact&langs_count=7&theme=tokyonight"/>
-  </a>
-  <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Melinh0&show_icons=true&locale=en&theme=tokyonight" alt="Melinh0" /></p>
-  <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Melinh0&theme=tokyonight" alt="Melinh0" /></p>
-</div>
+  
+  <!-- Streak (sequência de commits) -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Melinh0&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
+</div> 
 
+---
+<div align="center">
+  
+  <!-- Badges estáticas -->
+  ![Total de contribuições](https://img.shields.io/github/commit-activity/m/Melinh0/Melinh0?style=for-the-badge&logo=github&label=Commits%20(último%20mês))
+  ![Seguidores](https://img.shields.io/github/followers/Melinh0?style=for-the-badge&logo=github)
+  ![Estrelas](https://img.shields.io/github/stars/Melinh0?style=for-the-badge&logo=github)
+  
+  <!-- Gráfico de atividade (gera imagem atualizada automaticamente) -->
+  [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Melinh0&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+  
+</div>
+  
 ---
 
 ### 🌐 Let's Connect
