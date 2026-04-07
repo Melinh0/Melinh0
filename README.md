@@ -100,4 +100,4 @@ I build **end‑to‑end intelligent systems** that combine **Artificial Intelli
 
 ---
 
-![Snake animation](https://github.com/Melinh0/Melinh0/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Melinh0/Melinh0/output/github-contribution-grid-snake.svg)
