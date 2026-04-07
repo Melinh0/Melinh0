@@ -79,7 +79,9 @@ I build **end‑to‑end intelligent systems** that combine **Artificial Intelli
   [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Melinh0&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
   
 </div>
-  
+
+![Visitor Count](https://komarev.com/ghpvc/?username=Melinh0&color=blue&style=flat-square)
+
 ---
 
 ### 🌐 Let's Connect
