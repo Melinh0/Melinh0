@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=1500&pause=600&color=4169E1&background=000000EE&center=true&vCenter=true&multiline=true&width=1920&height=280&lines=Yago+Melo+da+Costa;AI+%26+Security+Engineer;Data+Scientist+%7C+Python+Developer+%7C+LLMs" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=1500&pause=600&color=4169E1&background=000000EE&center=true&vCenter=true&multiline=true&width=1920&height=280&lines=Yago+Melo+da+Costa;Software+Engineer;Data+Scientist+%7C+Fullstack+Developer+%7C+Security" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -12,11 +12,19 @@ I'm a **Computer Science undergraduate** at the **State University of Ceará (UE
 I build **end‑to‑end intelligent systems** that combine **Artificial Intelligence**, **Cybersecurity**, **Data Science**, and **Software Engineering**.
 
 - 🔐 **Security Engineer** at LARCES – implementing RBAC, JWT, AES‑256 encryption, TLS/SSL, and secure API gateways (Django + PostgreSQL + Docker) for medical imaging platforms (DICOM).
-- 🤖 **Fullstack & AI Engineer** at LARCES – developing a personalized study platform with **RAG**, **LLMs** (Llama, Qwen, DeepSeek, Gemma via Ollama), React whiteboard, FastAPI/Django backend, and Firebase storage.
+- 🤖 **Fullstack Developer** at LARCES – developing a personalized study platform with **RAG**, **LLMs** (Llama, Qwen, DeepSeek, Gemma via Ollama), React whiteboard, FastAPI/Django backend, and Firebase storage.
 - 📊 **Data Scientist** – full data lifecycle: ETL, statistical analysis (ANOVA, PCA, RFE), ML models (Random Forest, XGBoost, SVM), and interactive dashboards (Plotly, Dash).
-- 🧠 **AI Engineer** – built a **natural language query API** over threat intelligence databases using **LangChain**, **LlamaIndex**, FAISS, and Ollama.
+- 🧠 **LLM's** – built a **natural language query API** over threat intelligence databases using **LangChain**, **LlamaIndex**, FAISS, and Ollama.
 - 📈 **BI Analyst** – sentiment analysis on social media, web scraping (Selenium, BeautifulSoup), cloud pipelines (AWS/GCP), and real‑time Power BI dashboards.
-- 🧑‍🏫 **Mentor** at Capacita Brasil – supervised real projects for **Embrapa** (agricultural forecasting) and **Nutec** (industrial data automation).
+
+---
+
+### 🚀 Projects
+
+Here are some of the projects I've built:
+
+- **[Mentoria Matemática & Programação](https://mentoria-matematica-programacao.vercel.app/)** – A tutoring platform with math and programming exercise resolutions, interactive whiteboard, and LLM-powered assistance for personalized learning.
+- **[Garimpo Inteligente](https://garimpointeligente.vercel.app/)** – An intelligent platform for filtering and analyzing opportunities, combining web scraping, data processing, and interactive dashboards.
 
 ---
 
