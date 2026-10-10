@@ -28,6 +28,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Fix ownership of dist
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
       - name: Generate activity graph
         run: python scripts/generate_activity_graph.py
         env:
