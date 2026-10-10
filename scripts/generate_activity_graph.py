@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Generate a Tokyo Night themed GitHub activity graph (last 31 days) as SVG."""
 
-import calendar
 import json
 import os
 import sys
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
 WIDTH, HEIGHT = 820, 280
@@ -176,8 +176,8 @@ def render(series, login: str) -> str:
     parts.append(
         f'<text x="{PAD_L}" y="47" font-family="Segoe UI, Ubuntu,'
         f' Sans-Serif" font-size="11.5" fill="{MUTED}">'
-        f"Last 31 days &middot; {total} contributions"
-        f" &middot; {active} active days &middot; peak {peak}</text>"
+        f"Last 31 days &#183; {total} contributions"
+        f" &#183; {active} active days &#183; peak {peak}</text>"
     )
     parts.append("</svg>")
     return "\n".join(parts)
@@ -190,11 +190,20 @@ def main():
         sys.exit("Set GITHUB_TOKEN or GH_TOKEN")
 
     series = fetch_events(login, token)
+    svg = render(series, login)
+
+    # SVG is parsed as XML: an undefined HTML entity (e.g. &middot;) makes
+    # browsers silently refuse to render the image. Fail loudly instead.
+    try:
+        ET.fromstring(svg)
+    except ET.ParseError as exc:
+        sys.exit(f"Generated SVG is not valid XML: {exc}")
+
     out_dir = os.environ.get("OUT_DIR", "dist")
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "github-activity-graph.svg")
     with open(path, "w", encoding="utf-8") as f:
-        f.write(render(series, login))
+        f.write(svg)
     print(f"Wrote {path} ({sum(v for _, v in series)} contributions)")
 
 
