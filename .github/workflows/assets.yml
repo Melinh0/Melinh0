@@ -1,14 +1,24 @@
-name: Generate Snake Animation
+name: Profile Assets
 
 on:
   schedule:
-    - cron: "0 */12 * * *" 
-  workflow_dispatch:         
+    - cron: "20 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: Melinh0
@@ -17,6 +27,12 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate activity graph
+        run: python scripts/generate_activity_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: Melinh0
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
