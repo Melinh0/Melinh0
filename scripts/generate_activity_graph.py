@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Generate a Tokyo Night themed GitHub activity graph (last 31 days) as SVG."""
 
 import json
 import os
@@ -73,7 +72,6 @@ def fetch_events(login: str, token: str, days: int = 31):
 
 
 def smooth(points):
-    """Catmull-Rom to cubic bezier path."""
     if len(points) < 2:
         return ""
     p = [points[0]] + points + [points[-1]]
@@ -192,8 +190,6 @@ def main():
     series = fetch_events(login, token)
     svg = render(series, login)
 
-    # SVG is parsed as XML: an undefined HTML entity (e.g. &middot;) makes
-    # browsers silently refuse to render the image. Fail loudly instead.
     try:
         ET.fromstring(svg)
     except ET.ParseError as exc:
